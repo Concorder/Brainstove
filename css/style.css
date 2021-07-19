@@ -8,11 +8,11 @@
 }
 :root {
 	--primary: #131417;
-	--secondary: rgb(113, 119, 144);
+	--secondary: #959cbb;
 	--darker: rgba(31, 34, 41, 0.8);
 	--highlight: #02b484;
 	--high_inactive: #0e473a;
-	--main-text: #717790;
+	--main-text: #959cbb;
 	--high_grad: linear-gradient(to left, var(--highlight), #244134);
 	--medium_grad: linear-gradient(45deg, var(--secondary), #091555);
 	--ambient_grad: linear-gradient(to bottom, var(--secondary), var(--darker));
@@ -219,7 +219,7 @@ h3 {
 }
 #sub_menu > li:nth-child(2){
 	background: none;
-	color: var(--secondary);
+	color: var(--highlight);
 	margin-left: 10px;
 }
 #sub_menu > li:nth-child(2):hover{
@@ -257,6 +257,9 @@ h3 {
 	opacity: 1;
 	animation-duration: 40s;
 	mix-blend-mode: screen;
+}
+.membership_title > span {
+	color: var(--secondary)!important;
 }
 
 /*@-webkit-keyframes aether-background {*/
@@ -602,7 +605,7 @@ padding: 70px 0 165px 0;
 	text-align: center;
 	box-shadow: 0 5px 5px #00000033;
 	font-family: "Montserrat ExtraBold", sans-serif;
-	min-width: 100px;
+	min-width: 190px;
 }
 .button.btn-secondary {
 	background: var(--secondary);
@@ -621,12 +624,15 @@ padding: 70px 0 165px 0;
 .button {
 	transition: 0.3s;
 }
+.signUp form {max-width: 500px; margin: auto}
 
 form .btn-primary, form .btn-secondary {
 	margin-top: 27px;
 	max-width: 315px;
 }
 form label {
+	font-family: 'Arial', sans-serif;
+	font-weight: 400;
 	color: var(--secondary)!important;
 	margin-bottom: 10px;
 	font-size: 12px;
@@ -1076,14 +1082,14 @@ p.agileinfo{
     margin: 3em 0 0;
 }
 .about-grid-left-agileits-ltpwrlayouts ul li{
-
 	display:block;
     margin-bottom: 2em;
-    font-size: 14px;
+    font-size: 24px;
     text-transform: capitalize;
-	color: var(--main-text);
+	color: var(--highlight);
 	position: relative;
 	line-height: 1.3;
+	text-shadow: 2px 4px 6px var(--primary);
 }
 .about-grid-left-agileits-ltpwrlayouts ul li a{
 	text-decoration:none;
@@ -1906,6 +1912,7 @@ form .form-hint b {
 
 }
 
+
 .navbar-default .navbar-nav > li > a {
 	font-family: "Montserrat ExtraBold", sans-serif;
 	font-size: 24px;
@@ -1988,6 +1995,16 @@ a.blog-read:hover{
     font-weight: 700;
 	text-shadow: none;
 }
+.col-md-12.contact-left-agile {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	filter: drop-shadow(2px 2px 6px var(--primary));
+}
+.ltpwragile_flickr_posts img {
+	filter: drop-shadow(2px 4px 6px var(--primary));
+}
+
 .contact-left-agile ul li {
     text-align: left;
     display: block;
@@ -2348,9 +2365,10 @@ position: relative;
 	filter: drop-shadow(2px 4px 5px #0004);
 }
 .extraCard {
+	display: none;
 	position: relative;
 	overflow: hidden;
-	display: flex;
+	/*display: flex;*/
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
@@ -2378,7 +2396,7 @@ position: relative;
 }
 .ltpwrl_categories h3, .ltpwrl_archives h3, .ltpwragile_flickr_posts h3, .agileits_reply h3 ,.wthree_blog_left_grid h3,.newsletter h4{
     font-size: 1.5em!important;
-    color: var(--main-text);
+    color: var(--highlight);
     font-weight:700;
     margin-bottom: 1em;
 	text-align:left;
@@ -2866,6 +2884,9 @@ li>a {
 }
 .cc_flow.thx .contact-agileinfo .framed h3 {
 	margin-bottom: 0;
+}
+textarea#message {
+	max-width: calc(100% - 30px);
 }
 
 
@@ -3680,6 +3701,13 @@ li>a {
 	}
 }
 @media screen and (max-width:480px){
+	textarea#message {
+		max-width: unset;
+	}
+	.col-md-12.contact-left-agile {
+		flex-direction: column;
+
+	}
 	.container h2.monsterHeader {
 		font-size: 52px;
 		text-transform: uppercase;
@@ -3988,6 +4016,7 @@ li>a {
 		width: 100%;
 		float: left;
 		margin-bottom:30px;
+
 	}
 	.contact-right-ltpwr {
 		width: 100%;
