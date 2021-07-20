@@ -216,6 +216,14 @@ h3 {
 #sub_menu > li:nth-child(1){
 	color: var(--highlight);
 	border-radius: 5px;
+	background: var(--high_inactive);
+}
+#sub_menu > li:nth-child(1):hover{
+	background: var(--highlight);
+	color: #fff;
+}
+#sub_menu > li:nth-child(1) a:hover {
+	color: #fff;
 }
 #sub_menu > li:nth-child(2){
 	background: none;
@@ -227,9 +235,12 @@ h3 {
 	color: var(--highlight);
 	margin-left: 10px;
 }
-#sub_menu > li a:hover{
+#sub_menu > li:nth-child(2) a:hover{
 	color: var(--highlight);
 }
+/*#sub_menu > li a:hover{*/
+/*	color: var(--highlight);*/
+/*}*/
 .squire {
 	background: var(--secondary);
 	white-space: nowrap;
