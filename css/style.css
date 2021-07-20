@@ -167,7 +167,7 @@ h3 {
 	padding: 8px;
 	margin-top: 7px;
 }
-.nav > li > a:hover, .nav > li > a:focus {
+.nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
 	background-color: var(--high_inactive);
 	color: var(--highlight);
 	border-radius: 5px;
@@ -1706,6 +1706,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 	float: left;
 	width: calc(25% - 3em);
 	margin: 1.5em;
+	height: 140px;
 
 }
 .img_holder {
@@ -1736,6 +1737,7 @@ img.zoom-img {
 margin-top: 10px;
      transform: translate(0, 0);
 	transition: 0.5s ease-in-out;
+
 }
 img.zoom-img:hover{
 	transform: translate(0, -10px);
@@ -3023,6 +3025,9 @@ textarea#message {
 	}
 }
 @media screen and (max-width: 991px){
+	.gallery-grid {
+		height: 100px;
+	}
 	.navbar-header h1 {
 		margin-top:7px;
 		font-size: 35px;
@@ -3298,7 +3303,13 @@ textarea#message {
 	}
 }
 @media screen and (max-width: 768px){
+	.gamesSection {
+		flex-direction: column;
+	}
 
+	.sorter li {
+		display: inline-block;
+	}
 	.collection-text p {
 		padding: 0 10px;
 	}
@@ -3322,6 +3333,9 @@ textarea#message {
 		margin-left: 27px;
 
 		margin-bottom: 20px;
+	}
+	.gallery-grid {
+		height: 135px;
 	}
 	.navbar-header h1 {
 		text-align: left;
@@ -3413,6 +3427,7 @@ textarea#message {
 		width: 32px;
 		background-size: 58px;
 	}
+
 	.trend-ltpwrlayouts h4, .services-agileits-ltpwrlayouts h4 {
 		font-size: 19px;
 	}
@@ -3423,9 +3438,6 @@ textarea#message {
 	}
 	.service-grid-agileits-bottom{
 		margin-top:50px;
-	}
-	.new-grid-ltpwrl, .new-grid-agile {
-		padding: 0px 10px;
 	}
 
 	.footer-left-ltpwr ul li h6 {
@@ -3592,9 +3604,9 @@ textarea#message {
 	}
 }
 @media screen and (max-width:600px){
-	.new-grid-ltpwrl, .new-grid-agile {
-		padding: 0px 5px;
-	}
+	/*.new-grid-ltpwrl, .new-grid-agile {*/
+	/*	padding: 0px 5px;*/
+	/*}*/
 	.view {
 		margin-top: 1em;
 	}
@@ -3638,6 +3650,42 @@ textarea#message {
 	}
 }
 @media screen and (max-width:568px){
+	.sorter li.active::after {
+		display: none;
+	}
+	.gallery-grid {
+		float: left;
+		width: calc(100% - 3em);
+		height: unset;
+	}
+	.sorter li.active {
+		background: var(--highlight);
+		color: var(--primary);
+	}
+	.sorter li.active svg {
+		fill: var(--primary)
+	}
+	.sorter {
+		width: max-content;
+	}
+	.sorter li:first-child {
+		border-radius: 5px 0 0 0;
+	}
+
+	.scrollbox {
+		overflow-x: scroll;
+
+	}
+	.scrollbox::-webkit-scrollbar {
+		margin-top: 2px;
+		height: 3px;
+	}
+	.scrollbox::-webkit-scrollbar-track {
+		background: var(--secondary);
+	}
+	.scrollbox::-webkit-scrollbar-thumb {
+		background: var(--highlight);
+	}
 	.cc_overlay {
 		width: 90vw;
 	}
@@ -3652,7 +3700,6 @@ textarea#message {
 	}
 	.new-grid-ltpwrl, .new-grid-agile {
 		padding: 0px 7px;
-		width:50%;
 		float:left;
 	}
 	.view h4 {
@@ -3767,10 +3814,7 @@ textarea#message {
 		font-size: 14px;
 		letter-spacing:1px;
 	}
-	.gallery-grid {
-		float: left;
-		width: calc(100% - 3em);
-	}
+
 	[class*="small-dialog"] {
 		max-width: 75%;
 		margin-top:100px;
@@ -3863,44 +3907,6 @@ textarea#message {
     }
 }
 @media screen and (max-width:414px){
-	.gamesSection {
-		flex-direction: column;
-	}
-	.sorter li.active::after {
-		display: none;
-	}
-	.sorter li.active {
-		background: var(--highlight);
-		color: var(--primary);
-	}
-	.sorter li.active svg {
-		fill: var(--primary)
-	}
-	.sorter li:first-child {
-		border-radius: 5px 0 0 0;
-	}
-
-	.scrollbox {
-		overflow-x: scroll;
-
-	}
-	.scrollbox::-webkit-scrollbar {
-		margin-top: 2px;
-		height: 3px;
-	}
-	.scrollbox::-webkit-scrollbar-track {
-		background: var(--secondary);
-	}
-	.scrollbox::-webkit-scrollbar-thumb {
-		background: var(--highlight);
-	}
-	.sorter li {
-		display: inline-block;
-	}
-
-	.sorter {
-		width: max-content;
-	}
 	.callbacks_tabs li[class^="callbacks1_"]{
 		width: 75px;
 	}
