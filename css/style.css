@@ -219,7 +219,7 @@ h3 {
 }
 #sub_menu > li:nth-child(2){
 	background: none;
-	color: var(--highlight);
+	color: var(--secondary);
 	margin-left: 10px;
 }
 #sub_menu > li:nth-child(2):hover{
@@ -1997,6 +1997,9 @@ a.blog-read:hover{
     font-weight: 700;
 	text-shadow: none;
 }
+.contact-left-agile > div {
+	padding-right: 20px;
+}
 .col-md-12.contact-left-agile {
 	display: flex;
 	justify-content: space-between;
@@ -3234,7 +3237,6 @@ textarea#message {
 		float: left;
 	}
 	.contact-right-ltpwr{
-		width: 66.6%;
 		float: left;
 	}
 	.contact-right-ltpwr input.text{
