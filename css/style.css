@@ -165,7 +165,6 @@ h3 {
 }
 .navbar-nav > li > a {
 	padding: 8px;
-	margin-top: 7px;
 }
 .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
 	background-color: var(--high_inactive);
@@ -1154,7 +1153,7 @@ input::-webkit-inner-spin-button {
 	width: 100%;
 	max-width: 315px;
 }
-.login_page .contact-right-ltpwr {
+.contact_page .login_page .contact-right-ltpwr {
 	width: 100%;
 }
 .profile_page .framed {
