@@ -58,7 +58,16 @@ body {
 	pointer-events: none;
 	top: 100px;
 	left: 25%;
-	transform: scale(0.01);
+
+}
+#warning {
+	text-align: center;
+
+	background: var(--highlight);
+	color: #fff;
+	padding: 6px 0;
+}
+#warning:hover {
 
 }
 #lightCage {
@@ -167,10 +176,17 @@ h3 {
 	padding: 8px;
 }
 .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
-	background-color: var(--high_inactive);
+	background-color: transparent;
 	color: var(--highlight);
 	border-radius: 5px;
 	padding: 8px 15px;
+}
+.nav > li.active > a {
+	color: var(--highlight);
+	border-left: 2px solid var(--highlight);
+	border-right: 2px solid var(--highlight);
+	padding: 8px 8px;
+	margin: 0 8px;
 }
 .herobanner {
 	margin-top: 70px;
@@ -634,7 +650,7 @@ padding: 70px 0 165px 0;
 .button {
 	transition: 0.3s;
 }
-.signUp form {max-width: 500px; margin: auto}
+.signUp form {max-width: 520px; margin: auto}
 
 form .btn-primary, form .btn-secondary {
 	margin-top: 27px;
@@ -687,6 +703,11 @@ h3.game_title {
 }
 .view.gallery-grid .mask {
 	width: 100%;
+}
+.new-ltpwr-agile.new_games > .container > div {
+	height: calc(20vw + 20px);
+	min-height: 190px;
+	max-height: 344px;
 }
 ::-webkit-scrollbar {
 	overflow: visible;
@@ -1093,9 +1114,9 @@ p.agileinfo{
 }
 .about-grid-left-agileits-ltpwrlayouts ul li{
 	display:block;
-    margin-bottom: 2em;
-    font-size: 24px;
-    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-transform: uppercase;
 	color: var(--highlight);
 	position: relative;
 	line-height: 1.3;
@@ -1909,12 +1930,16 @@ form .form-hint {
 	text-align: center;
 	display: block;
 }
-form .form-hint2 {
+.form-hint2 {
 	font-size: 12px;
 	color: var(--secondary);
-	text-align: center;
+	text-align: left;
 	display: block;
-}
+	margin-bottom: 10px;
+}.form-hint2:last-child{
+	margin-bottom: 0;
+ }
+
 form .form-hint b {
 	color: var(--highlight);
 }
@@ -2018,6 +2043,12 @@ a.blog-read:hover{
 }
 .ltpwragile_flickr_posts img {
 	filter: drop-shadow(2px 4px 6px var(--primary));
+}
+.ltpwragile_flickr_posts.short{
+	height: 200px;
+overflow: hidden;
+	margin-bottom: 30px;
+
 }
 
 .contact-left-agile ul li {
@@ -2380,22 +2411,25 @@ position: relative;
 	filter: drop-shadow(2px 4px 5px #0004);
 }
 .extraCard {
-	display: none;
 	position: relative;
 	overflow: hidden;
-	/*display: flex;*/
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 	text-shadow: 0 0 10px var(--primary);
 	padding: 50px 30px;
-	margin-top: 65px;
+	margin-top: calc(50% - 115px);
+}
+.extraCard h3 {
+	color: var(--secondary)!important;
 }
 .extraCard h2 {
 	color: var(--highlight);
 }
 .benefit {
 	text-align: left;
+	color: var(--highlight);
 }
 .joystick {
 	width: 200px;
@@ -3924,6 +3958,7 @@ textarea#message {
 	}
 	.new-ltpwr-agile .view {
 		margin-top: 0;
+		width: 50%;
 	}
 	.rightbox .learnLarge {
 		margin: 20px 0 0;
