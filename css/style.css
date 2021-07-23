@@ -70,6 +70,12 @@ body {
 #warning:hover {
 
 }
+#warning svg {
+	fill: #fff;
+	height: 16px;
+	margin-right: 2px;
+	vertical-align: text-top;
+}
 #lightCage {
 
 }
@@ -153,7 +159,7 @@ img {
 	display: block;
 	background: var(--darker);
 	border-radius: 10px;
-	padding: 30px;
+	padding: 28px;
 }
 #gallery .plate > h3 {
 	text-align: right;
