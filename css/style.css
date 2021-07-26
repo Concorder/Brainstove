@@ -52,6 +52,11 @@ body {
 	filter: blur(50px);
 	border-radius: 150px;
 }
+.highlight {
+	color: var(--highlight);
+}
+
+
 #figure1, #figure2, #figure3 {
 	transition: 3s;
 	position: fixed;
@@ -2574,7 +2579,7 @@ li>a {
 
 }
 .terms a {
-	color: var(--darker);
+	color: var(--highlight);
 	text-decoration: underline;
 }
 .terms table {
@@ -2596,7 +2601,6 @@ li>a {
 .game .wthree_blog_left ul a {
 	color: var(--high_inactive);
 	margin: 0 10px 0 0;
-
 }
 .game_list {
 	text-align: center;
