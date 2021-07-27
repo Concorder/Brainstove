@@ -52,11 +52,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
     let figure3 = document.getElementById('figure3');
 toStrand();
 setTimeout(toStrand, 200);
-setInterval(toStrand, 3000)
+setInterval(toStrand, 3000);
     function toStrand() {
             randomPosition(figure1);
             randomPosition(figure2);
             randomPosition(figure3);
-
     }
 });

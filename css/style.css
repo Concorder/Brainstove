@@ -2595,6 +2595,10 @@ li>a {
 	list-style: none;
 }
 /*--game page--*/
+.game .wthree_blog_left {
+	margin: auto;
+	float: none;
+}
 .game .wthree_blog_left ul{
 	margin-top: 15px;
 }
@@ -2628,15 +2632,15 @@ li>a {
 	text-shadow: 0 0 10px #0006;
 }
 .game_name {position: relative; width: max-content;}
-.game_name:after {
-	content: '';
-	position: absolute;
-	bottom: -10px;
-	left: 0;
-	width: 60%;
-	height: 1px;
-	background: var(--primary);
-}
+/*.game_name:after {*/
+/*	content: '';*/
+/*	position: absolute;*/
+/*	bottom: -10px;*/
+/*	left: 0;*/
+/*	width: 60%;*/
+/*	height: 1px;*/
+/*	background: var(--primary);*/
+/*}*/
 /*accordeon*/
 .accordion ul {
 	list-style:none;
