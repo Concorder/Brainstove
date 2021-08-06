@@ -24,6 +24,9 @@ body {
 	background: var(--primary);
 	font-family: 'Montserrat Bold', sans-serif;
 }
+.shadow {
+	filter: drop-shadow(2px 2px 5px var(--primary));
+}
 #figure1 {
 	width: 18vw;
 	height: 18vw;
@@ -67,13 +70,14 @@ body {
 }
 #warning {
 	text-align: center;
-
 	background: var(--highlight);
-	color: #fff;
+	color: #84ffde;
 	padding: 6px 0;
+	font-family: Arial;
 }
-#warning:hover {
-
+#warning a {
+	font-family: 'Montserrat Bold', sans-serif;
+	color: #fff;
 }
 #warning svg {
 	fill: #fff;
@@ -81,9 +85,7 @@ body {
 	margin-right: 2px;
 	vertical-align: text-top;
 }
-#lightCage {
 
-}
 body a {
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -225,7 +227,6 @@ h3 {
 	margin-left: 0;
 }
 #sub_menu > li {
-	background: var(--high_inactive);
 	padding: 8px 12px;
 }
 .flex-control-nav {
@@ -239,29 +240,29 @@ h3 {
 	text-transform: uppercase;
 	margin-bottom: -2vw;
 }
-#sub_menu > li:nth-child(1){
+#sub_menu > li:last-child{
 	color: var(--highlight);
 	border-radius: 5px;
 	background: var(--high_inactive);
 }
-#sub_menu > li:nth-child(1):hover{
+#sub_menu > li:last-child:hover{
 	background: var(--highlight);
 	color: #fff;
 }
-#sub_menu > li:nth-child(1) a:hover {
+#sub_menu > li:last-child a:hover {
 	color: #fff;
 }
-#sub_menu > li:nth-child(2){
+#sub_menu > li{
 	background: none;
 	color: var(--secondary);
 	margin-left: 10px;
 }
-#sub_menu > li:nth-child(2):hover{
+#sub_menu > li:hover{
 	background: none;
 	color: var(--highlight);
 	margin-left: 10px;
 }
-#sub_menu > li:nth-child(2) a:hover{
+#sub_menu > li a:hover{
 	color: var(--highlight);
 }
 /*#sub_menu > li a:hover{*/
@@ -634,7 +635,7 @@ padding: 70px 0 165px 0;
 	color: var(--highlight);
 	border: 0;
 	margin: 20px auto 30px;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	border-radius: 8px;
 	display: block;
 	min-width: 100px;
@@ -664,7 +665,7 @@ padding: 70px 0 165px 0;
 .signUp form {max-width: 520px; margin: auto}
 
 form .btn-primary, form .btn-secondary {
-	margin-top: 27px;
+	margin-top: 35px;
 	max-width: 315px;
 }
 form label {
@@ -1233,6 +1234,16 @@ opacity: 0.95;
 /*}*/
 .contact-agileinfo {
 	min-height: 50vh;
+}
+.contact-agileinfo p {
+	margin-bottom: 15px;
+}
+.contact-agileinfo p span {
+	color: var(--highlight);
+}
+.contact-agileinfo .container.thin {
+	max-width: 720px;
+	filter: drop-shadow(2px 2px 5px var(--primary));
 }
 .thx .contact-agileinfo {
 	display: flex;
