@@ -74,10 +74,23 @@
       <workItem from="1627373313470" duration="3797000" />
       <workItem from="1627455336279" duration="717000" />
       <workItem from="1628176628900" duration="663000" />
+      <workItem from="1628177298644" duration="1434000" />
     </task>
+    <task id="LOCAL-00001" summary="cancel.html added">
+      <created>1628177355786</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628177355786</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cancel.html added" />
+    <option name="LAST_COMMIT_MESSAGE" value="cancel.html added" />
   </component>
 </project>

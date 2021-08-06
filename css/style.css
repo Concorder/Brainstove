@@ -1025,6 +1025,9 @@ a.learn:hover{
 	padding-right: 7px;
 	text-decoration: none;
 }
+.footer > .links > a:last-child {
+	color: #0be2a7;
+}
 .footer .links a:hover {
 	color: var(--highlight);
 }
@@ -3161,6 +3164,7 @@ textarea#message {
 		font-size: 13px;
 		line-height: 25px;
 	}
+
 	p.agileinfo {
 		margin-top: 12px;
 	}
