@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9ea6a58-8e68-4fc0-977a-0dfcb3a1e03f" name="Default Changelist" comment="" />
+    <list default="true" id="c9ea6a58-8e68-4fc0-977a-0dfcb3a1e03f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../[CMS]" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -76,6 +78,7 @@
       <workItem from="1628239483329" duration="9887000" />
       <workItem from="1629969971847" duration="2255000" />
       <workItem from="1629981088668" duration="137000" />
+      <workItem from="1633940083381" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="cancel.html added">
       <created>1628177355786</created>
