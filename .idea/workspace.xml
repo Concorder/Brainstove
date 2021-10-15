@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9ea6a58-8e68-4fc0-977a-0dfcb3a1e03f" name="Default Changelist" comment="" />
+    <list default="true" id="c9ea6a58-8e68-4fc0-977a-0dfcb3a1e03f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +85,7 @@
       <workItem from="1634026197972" duration="12411000" />
       <workItem from="1634112856212" duration="117000" />
       <workItem from="1634137619921" duration="109000" />
-      <workItem from="1634297211755" duration="1459000" />
+      <workItem from="1634297211755" duration="2904000" />
     </task>
     <task id="LOCAL-00001" summary="cancel.html added">
       <created>1628177355786</created>

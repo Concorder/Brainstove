@@ -1,3 +1,8 @@
+let noPhone = document.createElement('meta');
+noPhone.setAttribute('name', 'format-detection');
+noPhone.setAttribute('content', 'telephone=no')
+
+document.querySelector('head').prepend(noPhone);
 $(document).ready(function(){
 
     var ifLogged = false
