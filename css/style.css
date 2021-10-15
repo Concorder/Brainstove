@@ -24,9 +24,14 @@ body {
 	background: var(--primary);
 	font-family: 'Montserrat Bold', sans-serif;
 }
+
 a{color: var(--highlight)}
 a:hover{color: var(--highlight)}
 a:visited{color: var(--highlight)}
+a[href^=tel] {
+	text-decoration:inherit;
+	color: inherit;
+}
 .shadow {
 	filter: drop-shadow(2px 2px 5px var(--primary));
 }
