@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9ea6a58-8e68-4fc0-977a-0dfcb3a1e03f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/12595.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/cancel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/game_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_play.html" beforeDir="false" afterPath="$PROJECT_DIR$/game_play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_unlogged.html" beforeDir="false" afterPath="$PROJECT_DIR$/game_unlogged.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games.html" beforeDir="false" afterPath="$PROJECT_DIR$/games.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing.html" beforeDir="false" afterPath="$PROJECT_DIR$/processing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refund.html" beforeDir="false" afterPath="$PROJECT_DIR$/refund.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup2.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup_ecardon.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup_ecardon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup_safecharge2.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup_safecharge2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup_wordline.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup_wordline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sub_terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub_terms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/terms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thx.html" beforeDir="false" afterPath="$PROJECT_DIR$/thx.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -26,6 +52,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -78,7 +105,11 @@
       <workItem from="1628239483329" duration="9887000" />
       <workItem from="1629969971847" duration="2255000" />
       <workItem from="1629981088668" duration="137000" />
-      <workItem from="1633940083381" duration="347000" />
+      <workItem from="1633940083381" duration="18027000" />
+      <workItem from="1634026197972" duration="12411000" />
+      <workItem from="1634112856212" duration="117000" />
+      <workItem from="1634137619921" duration="109000" />
+      <workItem from="1634297211755" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="cancel.html added">
       <created>1628177355786</created>
