@@ -1049,7 +1049,7 @@ a.learn:hover{
 }
 .footer-left-ltpwr ul li{
 	display:inline-block;
-	margin-bottom:35px;
+	margin-bottom:20px;
 }
 .footer-left-ltpwr .glyphicon{
 	font-size:16px;
@@ -1058,7 +1058,7 @@ a.learn:hover{
 	display: flex;
 }
 .footer-left-ltpwr ul li h6{
-	font-size:14px;
+	font-size:12px;
 	color: var(--main-text);
 	margin-left:10px;
 	text-align: left;
@@ -2787,6 +2787,28 @@ li>a {
 		height: 100%!important;
 		align-items: center;
 	}
+	#sub_menu > li {
+		padding: 3px 12px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.footer-left-ltpwr ul li h6 {
+		font-size: 10px;
+		margin-left: 5px;
+	}
+	#sub_menu {
+		display: flex;
+		right: 20px;
+		height: max-content;
+		position: absolute;
+		width: max-content;
+		list-style: none;
+		flex-direction: column;
+		align-items: center;
+	}
+	.navbar-nav>li {
+		font-size: 14px;
+	}
 }
 @media all and (max-width: 980px) {
 	main .faqBox h2 {
@@ -3389,6 +3411,7 @@ textarea#message {
 	.gamesSection {
 		flex-direction: column;
 	}
+
 
 	.sorter li {
 		display: inline-block;
