@@ -2149,7 +2149,7 @@ overflow: hidden;
 color: var(--main-text) !important;
 }
  select {
-	 background: var(--highlight);
+	 background: var(--primary);
  }
 /*-- Map --*/
 
@@ -2338,7 +2338,7 @@ color: var(--main-text) !important;
 }
 
 select:focus {
-	background: var(--highlight);
+	background: var(--darker);
 	color: var(--main-text);
 }
 .agileits_reply .membership_title {
@@ -2858,9 +2858,23 @@ li>a {
 	min-width: 15px;
 	text-align: center;
 }
-#fs.passive {
-	background: var(--primary);
+#backBtn {
+	position: absolute;
+	font-size: 22px;
+	top: 10px;
+	left: 10px;
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	background: #0d436978;
+	padding: 3px 3px;
+	line-height: 1;
+	border-radius: 4px;
+	display: inline-block;
+	min-width: 15px;
+	text-align: center;
 }
+
 #message_proc, #message_success, .cc_overlay {
 	display: none;
 }
