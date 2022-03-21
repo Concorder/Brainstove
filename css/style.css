@@ -4308,3 +4308,21 @@ textarea#message {
 		font-size: 1.2em!important;
 	}
 }
+
+.desktop_link{
+	display: block;
+}
+
+.mobile_link{
+	display: none;
+}
+
+@media screen and (max-width: 500px){
+	.desktop_link{
+		display: none;
+	}
+	
+	.mobile_link{
+		display: block;
+	}	
+}
