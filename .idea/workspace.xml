@@ -6,26 +6,10 @@
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/cancel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/game_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_unlogged.html" beforeDir="false" afterPath="$PROJECT_DIR$/game_unlogged.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games.html" beforeDir="false" afterPath="$PROJECT_DIR$/games.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processing.html" beforeDir="false" afterPath="$PROJECT_DIR$/processing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/refund.html" beforeDir="false" afterPath="$PROJECT_DIR$/refund.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup2.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup_ecardon.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup_ecardon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup_safecharge2.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup_safecharge2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup_wordline.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup_wordline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sub_terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/sub_terms.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/terms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thx.html" beforeDir="false" afterPath="$PROJECT_DIR$/thx.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LootPower" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -116,6 +100,7 @@
       <workItem from="1642501853796" duration="655000" />
       <workItem from="1645623828559" duration="1441000" />
       <workItem from="1650366954553" duration="1305000" />
+      <workItem from="1650451867927" duration="961000" />
     </task>
     <task id="LOCAL-00001" summary="cancel.html added">
       <created>1628177355786</created>
