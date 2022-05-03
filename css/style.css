@@ -1175,7 +1175,7 @@ top: 3px;
 	margin-bottom: 10px;
 }
 .framed h4 {
-	color: var(--darker);
+	color: #fff;
 }
 .form_descr {
 	position: relative;
